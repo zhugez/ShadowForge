@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://wanderlens.vercel.app
+
+# Sitemaps
+Sitemap: https://wanderlens.vercel.app/sitemap.xml
