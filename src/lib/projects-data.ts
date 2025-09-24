@@ -74,10 +74,10 @@ export const projects: Project[] = [
     isFeatured: true,
   },
   {
-    title: 'CyberScavenge',
+    title: 'CryptoWallet',
     description:
-      'Developed a client-server data extractor with dynamic API responses and Gofile integration. Automated data exfiltration for Red Team scenarios with secure file upload capabilities and real-time progress monitoring.',
-    githubUrl: 'https://github.com/zhugez/cyberscavenge',
+      'Developed a secure cryptocurrency wallet with advanced security features including multi-signature support, hardware wallet integration, and encrypted key storage. Implemented robust protection against common attack vectors like phishing, malware, and man-in-the-middle attacks. Features secure transaction signing, cold storage capabilities, and comprehensive audit logging for blockchain security research.',
+    githubUrl: 'https://github.com/zhugez/CryptoWallet',
     license: 'Apache 2.0',
     isFeatured: true,
   },
