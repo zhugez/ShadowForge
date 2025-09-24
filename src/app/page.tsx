@@ -1,6 +1,6 @@
 /**
  * @file src/app/page.tsx
- * @description The main homepage of the Quantalink portfolio.
+ * @description The main homepage of the ShadowForge portfolio.
  *              This component arranges all the primary sections of the landing page
  *              in a vertical layout.
  */

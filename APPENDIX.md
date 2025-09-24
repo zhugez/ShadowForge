@@ -1,4 +1,4 @@
-# 📎 Appendix — Quantalink Portfolio
+# 📎 Appendix — ShadowForge Portfolio
 
 [⬅ Back to Main README](./README.md)
 
@@ -10,7 +10,7 @@
 
 > "What if a portfolio wasn't just a website… but a _thought experiment_ you could explore?"
 
-The **Quantalink Portfolio** reimagines a resume as a **physics-inspired interface**, where aesthetics, interactivity, and science converge.
+The **ShadowForge Portfolio** reimagines a resume as a **cybersecurity-inspired interface**, where Red Team operations, AI research, and modern web engineering converge.
 
 ### ✨ Key Concepts
 

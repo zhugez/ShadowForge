@@ -1,4 +1,4 @@
-# 🚀 Quantalink Portfolio
+# 🚀 ShadowForge Portfolio
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-wanderlens.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://wanderlens.vercel.app)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -9,8 +9,8 @@
 
 ## 🧠 **Core Vision**
 
-Quantalink fuses **Quantum Physics** + **Next.js Web Engineering** into a
-**visually immersive, and technically elegant** portfolio.
+ShadowForge fuses **Cybersecurity** + **AI Research** + **Next.js Web Engineering** into a
+**visually immersive, and technically elegant** portfolio for Red Team operations and security research.
 
 ---
 
