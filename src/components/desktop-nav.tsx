@@ -16,7 +16,7 @@ const navLinks = [
   { href: '/about', label: 'About', icon: User },
   { href: '/skills', label: 'Skills & Technologies', icon: Code },
   { href: '/projects', label: 'Projects', icon: Star },
-  { href: 'https://wanderlens.vercel.app', label: 'Blog', icon: BookOpen, external: true },
+  { href: 'https://shadowforge.vercel.app', label: 'Blog', icon: BookOpen, external: true },
 ];
 
 /**

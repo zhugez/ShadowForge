@@ -83,7 +83,7 @@ This project is licensed under the **Apache License 2.0** License.
 
 | Resource              | Link                                                         |
 | --------------------- | ------------------------------------------------------------ |
-| **Live Demo**         | [wanderlens.vercel.app](https://wanderlens.vercel.app) |
+| **Live Demo**         | [shadowforge.vercel.app](https://shadowforge.vercel.app) |
 | **Game Pseudocode**   | [Pseudocode.md](./pseudocode.md)                             |
 | **Appendix & Devlog** | [APPENDIX.md](./APPENDIX.md)                                 |
 
