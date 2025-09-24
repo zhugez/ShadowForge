@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="forgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Shadow background -->
+  <rect width="32" height="32" rx="4" fill="url(#shadowGradient)"/>
+
+  <!-- Shield outline -->
+  <path d="M16 4 L24 8 L24 16 C24 20 20 24 16 28 C12 24 8 20 8 16 L8 8 Z"
+        fill="none" stroke="url(#forgeGradient)" stroke-width="2" opacity="0.8"/>
+
+  <!-- Inner shield -->
+  <path d="M16 6 L22 9 L22 15 C22 18 19 21 16 25 C13 21 10 18 10 15 L10 9 Z"
+        fill="url(#forgeGradient)" opacity="0.3"/>
+
+  <!-- Letter S -->
+  <text x="12" y="18" font-family="Arial, sans-serif" font-size="8" font-weight="bold"
+        fill="url(#forgeGradient)">S</text>
+
+  <!-- Letter F -->
+  <text x="18" y="18" font-family="Arial, sans-serif" font-size="8" font-weight="bold"
+        fill="url(#forgeGradient)">F</text>
+
+  <!-- Cyber lines -->
+  <line x1="6" y1="12" x2="10" y2="12" stroke="url(#forgeGradient)" stroke-width="1" opacity="0.6"/>
+  <line x1="22" y1="12" x2="26" y2="12" stroke="url(#forgeGradient)" stroke-width="1" opacity="0.6"/>
+  <line x1="16" y1="8" x2="16" y2="12" stroke="url(#forgeGradient)" stroke-width="1" opacity="0.6"/>
+</svg>
