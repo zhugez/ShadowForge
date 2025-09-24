@@ -29,7 +29,7 @@ export const projects: Project[] = [
     title: 'Biometric Identification through Auditory EEG Signatures - YSC 2025',
     description:
       'Developed secure EEG-based biometric identification system using auditory stimulus-induced brain signals with Deep Metric Learning techniques. Implemented deep learning models with metric learning approaches on PhysioNet Auditory EEG dataset, incorporating signal preprocessing and feature enhancement methods. System achieves competitive performance in individual classification and includes novel subject detection capability for enhanced real-world security applications.',
-    githubUrl: 'https://github.com/zhugez/eeg-biometric-identification',
+    githubUrl: 'https://github.com/zhugez/EEGResearch',
     license: 'Apache 2.0',
     isFeatured: true,
   },
