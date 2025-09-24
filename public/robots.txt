@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://wanderlens.vercel.app
+Host: https://shadowforge.vercel.app
 
 # Sitemaps
-Sitemap: https://wanderlens.vercel.app/sitemap.xml
+Sitemap: https://shadowforge.vercel.app/sitemap.xml

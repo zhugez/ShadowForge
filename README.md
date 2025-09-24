@@ -1,6 +1,6 @@
 # 🚀 ShadowForge Portfolio
 
-[![Live Site](https://img.shields.io/badge/Live%20Site-wanderlens.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://wanderlens.vercel.app)
+[![Live Site](https://img.shields.io/badge/Live%20Site-shadowforge.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://shadowforge.vercel.app)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)

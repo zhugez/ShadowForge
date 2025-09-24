@@ -16,7 +16,7 @@ import GuidedTour from '@/components/guided-tour';
 
 // Define metadata for the website, used for SEO and browser tab information.
 export const metadata: Metadata = {
-  metadataBase: new URL('https://wanderlens.vercel.app'),
+  metadataBase: new URL('https://shadowforge.vercel.app'),
   title: 'Yasna | Cybersecurity Researcher',
   description: 'Personal portfolio of Yasna, a cybersecurity researcher specializing in red team operations, Windows internals, and AI security research.',
   keywords: [
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Yasna | Cybersecurity Researcher',
     description: 'Cybersecurity Researcher · AI Enthusiast ',
-    url: 'https://wanderlens.vercel.app',
+    url: 'https://shadowforge.vercel.app',
     siteName: 'Yasna Portfolio',
     images: [
       {
-        url: 'https://wanderlens.vercel.app/og-image.png', // Must be an absolute URL
+        url: 'https://shadowforge.vercel.app/og-image.png', // Must be an absolute URL
         width: 1200,
         height: 630,
         alt: 'Yasna Cybersecurity Portfolio',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Yasna | Cybersecurity Researcher',
     description: 'Cybersecurity Researcher · AI Enthusiast ',
-    images: ['https://wanderlens.vercel.app/og-image.png'],
+    images: ['https://shadowforge.vercel.app/og-image.png'],
   },
   robots: {
     index: true,
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   },
   // Sets the canonical URL for the root of the site.
   alternates: {
-    canonical: 'https://wanderlens.vercel.app',
+    canonical: 'https://shadowforge.vercel.app',
   },
 };
 
@@ -76,7 +76,7 @@ const jsonLd = {
   '@type': 'Person',
   name: 'Yasna',
   alternateName: ['Yasna Researcher'],
-  url: 'https://wanderlens.vercel.app',
+  url: 'https://shadowforge.vercel.app',
   jobTitle: 'Cybersecurity Researcher & AI Enthusiast',
   alumniOf: {
     '@type': 'Organization',
