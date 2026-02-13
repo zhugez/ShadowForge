@@ -26,6 +26,31 @@ export const projects: Project[] = [
   // To feature a project on the home page, set `isFeatured: true`.
 
   {
+    title: 'ExoMind',
+    description:
+      'Portable knowledge runtime for OpenClaw + Codex, combining markdown-first memory with associative retrieval. Supports indexing, recall, benchmarking, and automation for local-first personal knowledge workflows.',
+    githubUrl: 'https://3x0mind.vercel.app/',
+    license: 'Apache 2.0',
+    isFeatured: true,
+  },
+  {
+    title: 'Abyss',
+    description:
+      'AI-powered AppSec analysis platform for local-first security workflows with Local LLM support and isolated scanning. Includes project-based scanning, vulnerability triage, and practical remediation workflows for developers and security teams.',
+    githubUrl: 'https://abyss-landing.vercel.app/',
+    license: 'Apache 2.0',
+    isFeatured: true,
+  },
+  {
+    title: 'ArcStrike',
+    description:
+      'Offensive security project focused on practical red-team workflows and operator-first execution. Designed for fast iteration, field utility, and realistic adversarial simulation in controlled environments.',
+    githubUrl: 'https://arcstrike.vercel.app/',
+    license: 'Proprietary',
+    isFeatured: true,
+  },
+
+  {
     title: 'Biometric Identification through Auditory EEG Signatures - YSC 2025',
     description:
       'Developed secure EEG-based biometric identification system using auditory stimulus-induced brain signals with Deep Metric Learning techniques. Implemented deep learning models with metric learning approaches on PhysioNet Auditory EEG dataset, incorporating signal preprocessing and feature enhancement methods. System achieves competitive performance in individual classification and includes novel subject detection capability for enhanced real-world security applications.',
@@ -78,30 +103,6 @@ export const projects: Project[] = [
     description:
       'Developed a secure cryptocurrency wallet with advanced security features including multi-signature support, hardware wallet integration, and encrypted key storage. Implemented robust protection against common attack vectors like phishing, malware, and man-in-the-middle attacks. Features secure transaction signing, cold storage capabilities, and comprehensive audit logging for blockchain security research.',
     githubUrl: 'https://github.com/zhugez/CryptoWallet',
-    license: 'Apache 2.0',
-    isFeatured: true,
-  },
-  {
-    title: 'Abyss',
-    description:
-      'AI-powered AppSec analysis platform for local-first security workflows with Local LLM support and isolated scanning. Includes project-based scanning, vulnerability triage, and practical remediation workflows for developers and security teams.',
-    githubUrl: 'https://github.com/zhugez/Abyss',
-    license: 'Apache 2.0',
-    isFeatured: true,
-  },
-  {
-    title: 'ArcStrike',
-    description:
-      'Offensive security project focused on practical red-team workflows and operator-first execution. Designed for fast iteration, field utility, and realistic adversarial simulation in controlled environments.',
-    githubUrl: 'https://github.com/zhugez/ArcStrike',
-    license: 'Proprietary',
-    isFeatured: true,
-  },
-  {
-    title: 'ExoMind',
-    description:
-      'Portable knowledge runtime for OpenClaw + Codex, combining markdown-first memory with associative retrieval. Supports indexing, recall, benchmarking, and automation for local-first personal knowledge workflows.',
-    githubUrl: 'https://github.com/zhugez/ExoMind',
     license: 'Apache 2.0',
     isFeatured: true,
   },
