@@ -81,6 +81,30 @@ export const projects: Project[] = [
     license: 'Apache 2.0',
     isFeatured: true,
   },
+  {
+    title: 'Abyss',
+    description:
+      'AI-powered AppSec analysis platform for local-first security workflows with Local LLM support and isolated scanning. Includes project-based scanning, vulnerability triage, and practical remediation workflows for developers and security teams.',
+    githubUrl: 'https://github.com/zhugez/Abyss',
+    license: 'Apache 2.0',
+    isFeatured: true,
+  },
+  {
+    title: 'ArcStrike',
+    description:
+      'Offensive security project focused on practical red-team workflows and operator-first execution. Designed for fast iteration, field utility, and realistic adversarial simulation in controlled environments.',
+    githubUrl: 'https://github.com/zhugez/ArcStrike',
+    license: 'Proprietary',
+    isFeatured: true,
+  },
+  {
+    title: 'ExoMind',
+    description:
+      'Portable knowledge runtime for OpenClaw + Codex, combining markdown-first memory with associative retrieval. Supports indexing, recall, benchmarking, and automation for local-first personal knowledge workflows.',
+    githubUrl: 'https://github.com/zhugez/ExoMind',
+    license: 'Apache 2.0',
+    isFeatured: true,
+  },
   // To add another project, copy the object structure below:
   // {
   //   title: 'Your New Project Title',
