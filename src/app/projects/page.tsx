@@ -39,7 +39,7 @@ export default function ProjectsPage() {
 
           {/* An informational box providing context about the project timeline. */}
           <div className="bg-card/30 border border-border/40 rounded-lg p-4 text-center text-sm text-foreground/70 mb-8 italic">
-            Some of the projects listed here are available on GitHub under the Apache 2.0 license, while others can be provided upon request. </div>
+            Some of the projects listed here are available on GitHub under the GPL-3.0 license, while others can be provided upon request. </div>
           
           {/* The Projects component is rendered here without the `featuredOnly` prop,
               so it displays all projects from the data source. */}

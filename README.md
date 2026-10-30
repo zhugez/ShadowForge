@@ -1,7 +1,7 @@
 # 🚀 ShadowForge Portfolio
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-shadowforge.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://shadowforge.vercel.app)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg?style=for-the-badge&logo=gnu)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
@@ -74,7 +74,7 @@ ShadowForge fuses **Cybersecurity** + **AI Research** + **Next.js Web Engineerin
 
 ## 📜 **License**
 
-This project is licensed under the **Apache License 2.0** License.
+This project is licensed under the **GNU General Public License v3.0** (SPDX: `GPL-3.0-only`).
 © 2025 **Yasna**
 
 ---

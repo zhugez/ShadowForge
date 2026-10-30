@@ -2,7 +2,7 @@
   "name": "shadowforge",
   "version": "0.1.0",
   "private": true,
-  "license": "Apache-2.0",
+  "license": "GPL-3.0-only",
   "scripts": {
     "dev": "next dev --turbopack -p 9002",
     "genkit:dev": "genkit start -- tsx src/ai/dev.ts",
