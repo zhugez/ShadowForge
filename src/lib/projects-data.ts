@@ -34,7 +34,7 @@ export const projects: Project[] = [
       'Security platform for small teams and agentic builders. It builds a CVE baseline from NVD, OSV, and GHSA, ranks it with CISA KEV and EPSS, and adds website, email, domain, and uptime posture checks. Authorized red-team probes and a dark-web feed run in the same org context. Exposes scan_repo over MCP, so Claude and Cursor can queue scans without leaving the agent.',
     liveUrl: 'https://trustsee.com',
     stack: ['Next.js', 'React', 'TypeScript', 'Supabase', 'TinyFish', 'Playwright', 'MCP'],
-    license: 'Proprietary',
+    license: 'GPL-3.0',
     isFeatured: true,
   },
   {
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     liveUrl: 'https://3x0mind.vercel.app/',
     githubUrl: 'https://github.com/zhugez/ExoMind',
     stack: ['Rust'],
-    license: 'MIT',
+    license: 'GPL-3.0',
     isFeatured: true,
   },
   {
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     liveUrl: 'https://stella.zhugez.workers.dev',
     githubUrl: 'https://github.com/zhugez/stella',
     stack: ['TypeScript', 'Cloudflare Workers', 'FSRS'],
-    license: 'See repository',
+    license: 'GPL-3.0',
     isFeatured: true,
   },
   {
@@ -63,7 +63,7 @@ export const projects: Project[] = [
       'Native desktop ping and emote wheels. Windows-first, with experimental macOS support. Built with Rust, Tauri 2, and Svelte 5.',
     githubUrl: 'https://github.com/zhugez/pingloom',
     stack: ['Rust', 'Tauri 2', 'Svelte 5'],
-    license: 'See repository',
+    license: 'GPL-3.0',
   },
   {
     title: 'pi-pulse',
@@ -71,7 +71,7 @@ export const projects: Project[] = [
       'Five extensions for the Pi coding agent: a loop guard that blocks byte-identical tool calls, a mutation gate, a CRAP-score gate, a comment checker, and in-flight diagnostics for the file being edited.',
     githubUrl: 'https://github.com/zhugez/pi-pulse',
     stack: ['TypeScript', 'Pi'],
-    license: 'MIT',
+    license: 'GPL-3.0',
     isFeatured: true,
   },
   {
@@ -79,28 +79,28 @@ export const projects: Project[] = [
     description:
       'AI-powered AppSec analysis platform for local-first security workflows, with local LLM support and isolated scanning. Project-based scanning, vulnerability triage, and remediation workflows for developers and security teams.',
     liveUrl: 'https://abyss-landing.vercel.app/',
-    license: 'Proprietary',
+    license: 'GPL-3.0',
   },
   {
     title: 'ArcStrike',
     description:
       'Offensive security project for practical red-team workflows and operator-first execution. Built for fast iteration, field utility, and realistic adversarial simulation in controlled environments.',
     liveUrl: 'https://arcstrike.vercel.app/',
-    license: 'Proprietary',
+    license: 'GPL-3.0',
   },
   {
     title: 'Biometric Identification through Auditory EEG Signatures - YSC 2025',
     description:
       'EEG-based biometric identification from auditory stimulus-induced brain signals, using deep metric learning on the PhysioNet Auditory EEG dataset. The system classifies individuals and flags subjects it has never seen.',
     githubUrl: 'https://github.com/zhugez/EEGResearch',
-    license: 'Apache 2.0',
+    license: 'GPL-3.0',
   },
   {
     title: 'CryptoWallet',
     description:
       'Cryptocurrency wallet with multi-signature support, hardware wallet integration, encrypted key storage, secure transaction signing, cold storage, and audit logging for blockchain security research.',
     githubUrl: 'https://github.com/zhugez/CryptoWallet',
-    license: 'Apache 2.0',
+    license: 'GPL-3.0',
   },
   {
     title: 'Cordyceps',
@@ -108,7 +108,7 @@ export const projects: Project[] = [
       'WordPress plugin scanner. It finds the guard a security patch adds, then uses a static AST reachability harness to drop every finding an attacker cannot actually reach. Runs as an OpenClaw skill over Mycelium and Patchstack data.',
     githubUrl: 'https://github.com/zhugez/cordyceps',
     stack: ['Python', 'AST', 'OpenClaw', 'Patchstack'],
-    license: 'MIT',
+    license: 'GPL-3.0',
     isFeatured: true,
   },
 ];
