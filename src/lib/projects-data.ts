@@ -52,7 +52,7 @@ export const projects: Project[] = [
     description:
       'Illustrated IELTS vocabulary site. 7,298 words with native UK and US audio, review scheduled with FSRS, and hand-written Vietnamese notes. Runs on Cloudflare Workers.',
     liveUrl: 'https://stella.zhugez.workers.dev',
-    githubUrl: 'https://github.com/zhugez/stella',
+    githubUrl: 'https://github.com/zhugez/Stella',
     stack: ['TypeScript', 'Cloudflare Workers', 'FSRS'],
     license: 'GPL-3.0',
     isFeatured: true,
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     description:
       'Native desktop ping and emote wheels. Windows-first, with experimental macOS support. Built with Rust, Tauri 2, and Svelte 5.',
     liveUrl: 'https://pingloom.zhugez.workers.dev/',
-    githubUrl: 'https://github.com/zhugez/pingloom',
+    githubUrl: 'https://github.com/zhugez/Pingloom',
     stack: ['Rust', 'Tauri 2', 'Svelte 5'],
     license: 'GPL-3.0',
   },
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     title: 'Pi-pulse',
     description:
       'Five extensions for the Pi coding agent: a loop guard that blocks byte-identical tool calls, a mutation gate, a CRAP-score gate, a comment checker, and in-flight diagnostics for the file being edited.',
-    githubUrl: 'https://github.com/zhugez/pi-pulse',
+    githubUrl: 'https://github.com/zhugez/Pi-pulse',
     stack: ['TypeScript', 'Pi'],
     license: 'GPL-3.0',
     isFeatured: true,
@@ -79,7 +79,7 @@ export const projects: Project[] = [
     title: 'Pi-capsule',
     description:
       'Your Pi setup, packed for every machine. Exports and restores the ~/.pi/agent config: extensions, skills, prompts, MCP servers, and models, with a postinstall step that keeps models in sync.',
-    githubUrl: 'https://github.com/zhugez/pi-capsule',
+    githubUrl: 'https://github.com/zhugez/Pi-capsule',
     stack: ['TypeScript', 'Pi'],
     license: 'GPL-3.0',
   },
