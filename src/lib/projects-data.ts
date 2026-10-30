@@ -34,7 +34,7 @@ export const projects: Project[] = [
       'Security platform for small teams and agentic builders. It builds a CVE baseline from NVD, OSV, and GHSA, ranks it with CISA KEV and EPSS, and adds website, email, domain, and uptime posture checks. Authorized red-team probes and a dark-web feed run in the same org context. Exposes scan_repo over MCP, so Claude and Cursor can queue scans without leaving the agent.',
     liveUrl: 'https://trustsee.com',
     stack: ['Next.js', 'React', 'TypeScript', 'Supabase', 'TinyFish', 'Playwright', 'MCP'],
-    license: 'GPL-3.0',
+    license: 'Proprietary',
     isFeatured: true,
   },
   {
@@ -61,6 +61,7 @@ export const projects: Project[] = [
     title: 'pingloom',
     description:
       'Native desktop ping and emote wheels. Windows-first, with experimental macOS support. Built with Rust, Tauri 2, and Svelte 5.',
+    liveUrl: 'https://pingloom.zhugez.workers.dev/',
     githubUrl: 'https://github.com/zhugez/pingloom',
     stack: ['Rust', 'Tauri 2', 'Svelte 5'],
     license: 'GPL-3.0',
