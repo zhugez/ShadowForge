@@ -28,8 +28,6 @@ export interface Project {
  * An array of project objects.
  */
 export const projects: Project[] = [
-  // To feature a project on the home page, set `isFeatured: true`.
-
   {
     title: 'TrustSee',
     description:
@@ -40,30 +38,12 @@ export const projects: Project[] = [
     isFeatured: true,
   },
   {
-    title: 'Cordyceps',
-    description:
-      'WordPress plugin scanner. It finds the guard a security patch adds, then uses a static AST reachability harness to drop every finding an attacker cannot actually reach. Runs as an OpenClaw skill over Mycelium and Patchstack data.',
-    githubUrl: 'https://github.com/zhugez/cordyceps',
-    stack: ['Python', 'AST', 'OpenClaw', 'Patchstack'],
-    license: 'MIT',
-    isFeatured: true,
-  },
-  {
     title: 'ExoMind',
     description:
       'Memory and knowledge runtime. One store serves Pi, Hermes Agent, OpenClaw, and Codex: markdown-first memory with associative retrieval, indexing, recall, and benchmarking for local-first knowledge workflows.',
     liveUrl: 'https://3x0mind.vercel.app/',
     githubUrl: 'https://github.com/zhugez/ExoMind',
     stack: ['Rust'],
-    license: 'MIT',
-    isFeatured: true,
-  },
-  {
-    title: 'pi-pulse',
-    description:
-      'Five extensions for the Pi coding agent: a loop guard that blocks byte-identical tool calls, a mutation gate, a CRAP-score gate, a comment checker, and in-flight diagnostics for the file being edited.',
-    githubUrl: 'https://github.com/zhugez/pi-pulse',
-    stack: ['TypeScript', 'Pi'],
     license: 'MIT',
     isFeatured: true,
   },
@@ -84,6 +64,15 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/zhugez/pingloom',
     stack: ['Rust', 'Tauri 2', 'Svelte 5'],
     license: 'See repository',
+  },
+  {
+    title: 'pi-pulse',
+    description:
+      'Five extensions for the Pi coding agent: a loop guard that blocks byte-identical tool calls, a mutation gate, a CRAP-score gate, a comment checker, and in-flight diagnostics for the file being edited.',
+    githubUrl: 'https://github.com/zhugez/pi-pulse',
+    stack: ['TypeScript', 'Pi'],
+    license: 'MIT',
+    isFeatured: true,
   },
   {
     title: 'Abyss',
@@ -113,13 +102,13 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/zhugez/CryptoWallet',
     license: 'Apache 2.0',
   },
-  // To add another project, copy the object structure below:
-  // {
-  //   title: 'Your New Project Title',
-  //   description: 'A brief and engaging description of your project.',
-  //   githubUrl: 'https://github.com/your-username/your-repo',
-  //   license: 'Apache 2.0',
-  //   isFeatured: false, // Set to true to show on home page
-  //   isContribution: false, // Set to true if it's a contribution to another project
-  // },
+  {
+    title: 'Cordyceps',
+    description:
+      'WordPress plugin scanner. It finds the guard a security patch adds, then uses a static AST reachability harness to drop every finding an attacker cannot actually reach. Runs as an OpenClaw skill over Mycelium and Patchstack data.',
+    githubUrl: 'https://github.com/zhugez/cordyceps',
+    stack: ['Python', 'AST', 'OpenClaw', 'Patchstack'],
+    license: 'MIT',
+    isFeatured: true,
+  },
 ];
