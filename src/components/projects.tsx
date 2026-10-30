@@ -21,7 +21,7 @@ import {
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, ExternalLink } from 'lucide-react';
+import { ArrowRight, ExternalLink, Github } from 'lucide-react';
 import Link from 'next/link';
 
 /**
@@ -92,14 +92,41 @@ export default function Projects({ featuredOnly = false }: ProjectsProps) {
                   {project.description}
                 </CardDescription>
               </CardHeader>
-              <CardFooter className="flex justify-between items-center">
-                <Badge variant="secondary" className="bg-background/50">{project.license}</Badge>
-                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Visit Project
-                  </Button>
-                </a>
+              <CardFooter className="flex flex-col items-start gap-3">
+                {project.stack && project.stack.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5">
+                    {project.stack.map((tech) => (
+                      <Badge
+                        key={tech}
+                        variant="outline"
+                        className="bg-background/40 text-[11px] font-normal text-foreground/70"
+                      >
+                        {tech}
+                      </Badge>
+                    ))}
+                  </div>
+                )}
+                <div className="flex w-full items-center justify-between gap-2">
+                  <Badge variant="secondary" className="bg-background/50">{project.license}</Badge>
+                  <div className="flex items-center">
+                    {project.githubUrl && (
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Button variant="ghost" size="sm">
+                          <Github className="mr-2 h-4 w-4" />
+                          Code
+                        </Button>
+                      </a>
+                    )}
+                    {project.liveUrl && (
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                        <Button variant="ghost" size="sm">
+                          <ExternalLink className="mr-2 h-4 w-4" />
+                          Live
+                        </Button>
+                      </a>
+                    )}
+                  </div>
+                </div>
               </CardFooter>
             </div>
           </Card>
