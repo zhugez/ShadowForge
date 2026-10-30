@@ -115,7 +115,7 @@ export const projects: Project[] = [
     title: 'Cordyceps',
     description:
       'WordPress plugin scanner. It finds the guard a security patch adds, then uses a static AST reachability harness to drop every finding an attacker cannot actually reach. Runs as an OpenClaw skill over Mycelium and Patchstack data.',
-    githubUrl: 'https://github.com/zhugez/cordyceps',
+    githubUrl: 'https://github.com/zhugez/Cordyceps',
     stack: ['Python', 'AST', 'OpenClaw', 'Patchstack'],
     license: 'GPL-3.0',
     isFeatured: true,
