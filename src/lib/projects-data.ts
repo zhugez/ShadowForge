@@ -48,7 +48,7 @@ export const projects: Project[] = [
     isFeatured: true,
   },
   {
-    title: 'stella',
+    title: 'Stella',
     description:
       'Illustrated IELTS vocabulary site. 7,298 words with native UK and US audio, review scheduled with FSRS, and hand-written Vietnamese notes. Runs on Cloudflare Workers.',
     liveUrl: 'https://stella.zhugez.workers.dev',
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     isFeatured: true,
   },
   {
-    title: 'pingloom',
+    title: 'Pingloom',
     description:
       'Native desktop ping and emote wheels. Windows-first, with experimental macOS support. Built with Rust, Tauri 2, and Svelte 5.',
     liveUrl: 'https://pingloom.zhugez.workers.dev/',
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     license: 'GPL-3.0',
   },
   {
-    title: 'pi-pulse',
+    title: 'Pi-pulse',
     description:
       'Five extensions for the Pi coding agent: a loop guard that blocks byte-identical tool calls, a mutation gate, a CRAP-score gate, a comment checker, and in-flight diagnostics for the file being edited.',
     githubUrl: 'https://github.com/zhugez/pi-pulse',
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     isFeatured: true,
   },
   {
-    title: 'pi-capsule',
+    title: 'Pi-capsule',
     description:
       'Your Pi setup, packed for every machine. Exports and restores the ~/.pi/agent config: extensions, skills, prompts, MCP servers, and models, with a postinstall step that keeps models in sync.',
     githubUrl: 'https://github.com/zhugez/pi-capsule',
