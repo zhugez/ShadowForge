@@ -6,7 +6,7 @@
  */
 import AnimatedBackground from "@/components/animated-background";
 import PageFooter from "@/components/page-footer";
-import { BookOpen, Telescope, Users } from "lucide-react";
+import { Award, BookOpen, FileText, ShieldAlert, Telescope } from "lucide-react";
 import type { Metadata } from 'next';
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -26,7 +26,7 @@ const aboutSections = [
   {
     icon: <BookOpen className="h-8 w-8" />,
     title: "My Research",
-    content: "I specialize in cybersecurity research with a focus on Windows internals, vulnerability research, and red team operations. My work covers topics like privilege escalation, malware analysis, and advanced persistent threats.",
+    content: "I specialize in cybersecurity research with a focus on Windows internals, vulnerability research, and red team operations. My work covers authentication and access-control flaws, malware analysis, and advanced persistent threats.",
   },
   {
     icon: <Telescope className="h-8 w-8" />,
@@ -34,9 +34,19 @@ const aboutSections = [
     content: "Beyond security research, I'm passionate about artificial intelligence, machine learning applications in cybersecurity, and developing novel attack vectors. I enjoy reverse engineering, binary analysis, and exploring the intersection of AI and security.",
   },
   {
-    icon: <Users className="h-8 w-8" />,
-    title: "Community",
-    content: "I believe in knowledge sharing and contribute to the cybersecurity community through research publications, blog posts, and open-source tools. I'm always looking to collaborate with fellow researchers and security professionals.",
+    icon: <FileText className="h-8 w-8" />,
+    title: "Publications",
+    content: "First author on all four.\n\nAISEI 2026 (IEEE) — Biometric Identification Through Auditory EEG Signatures. Published.\n\nSSRC 2026 — Multimodal Mamba Fusion for Noise-Robust EEG Biometric Identification. Published.\n\nAPSIPA ASC 2026 — Multimodal Mamba Fusion for Noise-Robust EEG Biometric Identification. Accepted.\n\nATC 2024 — Malware detection with machine learning and deep learning. Presented.",
+  },
+  {
+    icon: <ShieldAlert className="h-8 w-8" />,
+    title: "Disclosures",
+    content: "Severity is CVSS.\n\nTelegram for Android — 4 findings. Two High (7.5, 7.1), two Medium (5.5). Submitted.\n\nPatchstack — 2 broken access control, Medium. Accepted.\n\nIUH — 3 findings. Two High (8.7), one Medium (6.9). Accepted.",
+  },
+  {
+    icon: <Award className="h-8 w-8" />,
+    title: "Awards & Certifications",
+    content: "YSC 2025 — Consolation Prize.\n\nCertified AppSec Practitioner (CAP).",
   }
 ];
 
@@ -78,7 +88,7 @@ export default function AboutPage() {
                       <CardTitle className="text-xl text-primary">{section.title}</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-foreground/80 leading-relaxed text-sm">
+                      <p className="text-foreground/80 leading-relaxed text-sm whitespace-pre-line">
                         {section.content}
                       </p>
                     </CardContent>

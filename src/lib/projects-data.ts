@@ -26,85 +26,79 @@ export const projects: Project[] = [
   // To feature a project on the home page, set `isFeatured: true`.
 
   {
+    title: 'TrustSee',
+    description:
+      'Security platform for small teams and agentic builders. It builds a CVE baseline from NVD, OSV, and GHSA, ranks it with CISA KEV and EPSS, and adds website, email, domain, and uptime posture checks. Authorized red-team probes and a dark-web feed run in the same org context. Exposes scan_repo over MCP, so Claude and Cursor can queue scans without leaving the agent.',
+    githubUrl: 'https://trustsee.com',
+    license: 'Proprietary',
+    isFeatured: true,
+  },
+  {
+    title: 'Cordyceps',
+    description:
+      'WordPress plugin scanner. It finds the guard a security patch adds, then uses a static AST reachability harness to drop every finding an attacker cannot actually reach. Runs as an OpenClaw skill over Mycelium and Patchstack data.',
+    githubUrl: 'https://github.com/zhugez/cordyceps',
+    license: 'MIT',
+    isFeatured: true,
+  },
+  {
     title: 'ExoMind',
     description:
-      'Portable knowledge runtime for OpenClaw + Codex, combining markdown-first memory with associative retrieval. Supports indexing, recall, benchmarking, and automation for local-first personal knowledge workflows.',
+      'Memory and knowledge runtime. One store serves Pi, Hermes Agent, OpenClaw, and Codex: markdown-first memory with associative retrieval, indexing, recall, and benchmarking for local-first knowledge workflows.',
     githubUrl: 'https://3x0mind.vercel.app/',
-    license: 'Apache 2.0',
+    license: 'MIT',
     isFeatured: true,
+  },
+  {
+    title: 'pi-pulse',
+    description:
+      'Five extensions for the Pi coding agent: a loop guard that blocks byte-identical tool calls, a mutation gate, a CRAP-score gate, a comment checker, and in-flight diagnostics for the file being edited.',
+    githubUrl: 'https://github.com/zhugez/pi-pulse',
+    license: 'MIT',
+    isFeatured: true,
+  },
+  {
+    title: 'stella',
+    description:
+      'Illustrated IELTS vocabulary site. 7,298 words with native UK and US audio, review scheduled with FSRS, and hand-written Vietnamese notes. Runs on Cloudflare Workers.',
+    githubUrl: 'https://stella.zhugez.workers.dev',
+    license: 'See repository',
+    isFeatured: true,
+  },
+  {
+    title: 'pingloom',
+    description:
+      'Native desktop ping and emote wheels. Windows-first, with experimental macOS support. Built with Rust, Tauri 2, and Svelte 5.',
+    githubUrl: 'https://github.com/zhugez/pingloom',
+    license: 'See repository',
   },
   {
     title: 'Abyss',
     description:
-      'AI-powered AppSec analysis platform for local-first security workflows with Local LLM support and isolated scanning. Includes project-based scanning, vulnerability triage, and practical remediation workflows for developers and security teams.',
+      'AI-powered AppSec analysis platform for local-first security workflows, with local LLM support and isolated scanning. Project-based scanning, vulnerability triage, and remediation workflows for developers and security teams.',
     githubUrl: 'https://abyss-landing.vercel.app/',
-    license: 'Apache 2.0',
-    isFeatured: true,
+    license: 'Proprietary',
   },
   {
     title: 'ArcStrike',
     description:
-      'Offensive security project focused on practical red-team workflows and operator-first execution. Designed for fast iteration, field utility, and realistic adversarial simulation in controlled environments.',
+      'Offensive security project for practical red-team workflows and operator-first execution. Built for fast iteration, field utility, and realistic adversarial simulation in controlled environments.',
     githubUrl: 'https://arcstrike.vercel.app/',
     license: 'Proprietary',
-    isFeatured: true,
   },
-
   {
     title: 'Biometric Identification through Auditory EEG Signatures - YSC 2025',
     description:
-      'Developed secure EEG-based biometric identification system using auditory stimulus-induced brain signals with Deep Metric Learning techniques. Implemented deep learning models with metric learning approaches on PhysioNet Auditory EEG dataset, incorporating signal preprocessing and feature enhancement methods. System achieves competitive performance in individual classification and includes novel subject detection capability for enhanced real-world security applications.',
+      'EEG-based biometric identification from auditory stimulus-induced brain signals, using deep metric learning on the PhysioNet Auditory EEG dataset. The system classifies individuals and flags subjects it has never seen.',
     githubUrl: 'https://github.com/zhugez/EEGResearch',
     license: 'Apache 2.0',
-    isFeatured: true,
-  },
-  {
-    title: 'Malware Detection using ML/DL - ATC 2024',
-    description:
-      'First Author research presented at ATC 2024 Conference. Investigated machine learning and deep learning techniques for malware detection based on Windows PE files, comparing performance of classical ML and deep text models.',
-    githubUrl: 'https://github.com/zhugez/malware-detection-mldl',
-    license: 'Apache 2.0',
-    isFeatured: true,
-  },
-  {
-    title: 'Deep Learning-based Intrusion Detection System',
-    description:
-      'Developed advanced intrusion detection model using LSTM and Transformer architectures to detect web exploitation attacks. Achieved 94% accuracy with low false positive rates using ECML/PKDD 2007 and CSIC 2010 datasets.',
-    githubUrl: 'https://github.com/zhugez/dl-intrusion-detection',
-    license: 'Apache 2.0',
-    isFeatured: true,
-  },
-  {
-    title: 'Smart Contract Vulnerability Detection System',
-    description:
-      'Built ML & DL-based vulnerability detection system for smart contracts. Trained on self-created Solidity contract datasets using SVC, XGBoost, and biLSTM models. Features interactive Streamlit demo for real-time vulnerability assessment.',
-    githubUrl: 'https://github.com/zhugez/smartcontract-vulnerability-detection',
-    license: 'Apache 2.0',
-    isFeatured: true,
-  },
-    {
-    title: 'SilentWebWeaver',
-    description:
-      'Designed a C++ shellcode dropper/loader using HTTP protocol. Successfully bypassed Windows Defender and Kaspersky antivirus. Implemented advanced persistence techniques and encryption for secure payload delivery in Red Team operations.',
-    githubUrl: 'https://github.com/zhugez/silentwebweaver',
-    license: 'Apache 2.0',
-    isFeatured: true,
-  },
-  {
-    title: 'Elegant ICMP Tunneling',
-    description:
-      'Created a Python-based multi-client remote access tool over ICMP protocol. Managed secure communication channels and stored victim metadata in a custom database. Enables covert command and control operations through firewall-restricted networks.',
-    githubUrl: 'https://github.com/zhugez/elegant-icmp-tunneling',
-    license: 'Apache 2.0',
-    isFeatured: true,
   },
   {
     title: 'CryptoWallet',
     description:
-      'Developed a secure cryptocurrency wallet with advanced security features including multi-signature support, hardware wallet integration, and encrypted key storage. Implemented robust protection against common attack vectors like phishing, malware, and man-in-the-middle attacks. Features secure transaction signing, cold storage capabilities, and comprehensive audit logging for blockchain security research.',
+      'Cryptocurrency wallet with multi-signature support, hardware wallet integration, encrypted key storage, secure transaction signing, cold storage, and audit logging for blockchain security research.',
     githubUrl: 'https://github.com/zhugez/CryptoWallet',
     license: 'Apache 2.0',
-    isFeatured: true,
   },
   // To add another project, copy the object structure below:
   // {
