@@ -75,6 +75,14 @@ export const projects: Project[] = [
     isFeatured: true,
   },
   {
+    title: 'pi-capsule',
+    description:
+      'Your Pi setup, packed for every machine. Exports and restores the ~/.pi/agent config: extensions, skills, prompts, MCP servers, and models, with a postinstall step that keeps models in sync.',
+    githubUrl: 'https://github.com/zhugez/pi-capsule',
+    stack: ['TypeScript', 'Pi'],
+    license: 'GPL-3.0',
+  },
+  {
     title: 'Abyss',
     description:
       'AI-powered AppSec analysis platform for local-first security workflows, with local LLM support and isolated scanning. Project-based scanning, vulnerability triage, and remediation workflows for developers and security teams.',
